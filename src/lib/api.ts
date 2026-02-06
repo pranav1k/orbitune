@@ -1,6 +1,6 @@
 import { SearchResponse, SongSearchResponse, Song } from "@/types/music";
 
-const BASE_URL = "https://jiosaavn-api-clone-nine.vercel.app";
+const BASE_URL = "https://jiosaavn-api.pkk02008.workers.dev";
 
 export const musicApi = {
   search: async (query: string): Promise<SearchResponse> => {
