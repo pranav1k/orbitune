@@ -4,6 +4,14 @@ A modern, feature-rich music streaming and player web application built with Nex
 
 Live at: [https://orbitune.pkk.in.eu.org](https://orbitune.pkk.in.eu.org)
 
+## Screenshots
+
+![Orbitune Desktop](./images/desktop.avif)
+
+<p align="center">
+  <img src="./images/mobile.avif" alt="Orbitune Mobile" width="320" />
+</p>
+
 ## Features
 
 - 🎵 **Music Streaming**: Search and stream high-quality songs, albums, artists, and playlists.
