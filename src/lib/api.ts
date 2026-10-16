@@ -1,6 +1,8 @@
 import { SearchResponse, SongSearchResponse, Song } from "@/types/music";
 
-const BASE_URL = "https://jiosaavn-api.pkk02008.workers.dev";
+const BASE_URL = (
+  process.env.NEXT_PUBLIC_API_BASE_URL || ""
+).replace(/\/$/, "");
 
 export const musicApi = {
   search: async (query: string): Promise<SearchResponse> => {

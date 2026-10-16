@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Orbitune
+
+A modern, feature-rich music streaming and player web application built with Next.js, React, Tailwind CSS, and Bun.
+
+Live at: [https://orbitune.pkk.in.eu.org](https://orbitune.pkk.in.eu.org)
+
+## Features
+
+- 🎵 **Music Streaming**: Search and stream high-quality songs, albums, artists, and playlists.
+- 💾 **Dual Download Modes**: In-app offline caching (IndexedDB) and direct file downloads.
+- ❤️ **Liked Songs & Playlists**: Save favorite tracks and organize custom playlists.
+- 🎨 **Nice UI**: Responsive dark theme with player controls and animated visual touches.
+- ⚡ **PWA supported**: Installable with offline support.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- [Bun](https://bun.sh/)
+
+### 1. Clone & Install
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+git clone https://github.com/pranav1k/orbitune.git
+cd orbitune
+bun install
+```
+
+### 2. Configure Environment Variables
+
+Copy the example environment file:
+
+```bash
+cp .env.example .env.local
+```
+
+Open `.env.local` and set your backend API URL:
+
+```env
+NEXT_PUBLIC_API_BASE_URL= your_hosted_api_url
+```
+
+> **Note**: Orbitune uses custom fork of [sumitkolhe/jiosaavn-api](https://github.com/sumitkolhe/jiosaavn-api) (API compatible).
+
+### 3. Run Locally
+
+```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) with your browser.

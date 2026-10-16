@@ -68,7 +68,7 @@ export function Sidebar({ className, onNavigate }: { className?: string; onNavig
         })}
       </nav>
 
-      <div className="flex-1 overflow-y-auto px-4 py-2 border-t border-white/5 no-scrollbar">
+      <div className="flex-1 overflow-y-auto px-4 py-2 border-t border-white/5 scrollbar-hide">
         <div className="text-xs text-zinc-500 uppercase tracking-wider font-semibold mb-4 mt-2">
           Recently Played
         </div>

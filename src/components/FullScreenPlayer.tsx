@@ -130,6 +130,22 @@ export function FullScreenPlayer({ isOpen, onClose }: FullScreenPlayerProps) {
         seek(value[0]);
     };
 
+    useEffect(() => {
+        const handleKeyDown = (e: KeyboardEvent) => {
+            if (e.key === "Escape") {
+                onClose();
+            }
+        };
+
+        if (isOpen) {
+            window.addEventListener("keydown", handleKeyDown);
+        }
+
+        return () => {
+            window.removeEventListener("keydown", handleKeyDown);
+        };
+    }, [isOpen, onClose]);
+
     if (!currentSong) return null;
 
     // Use portal to break out of parent stacking contexts
