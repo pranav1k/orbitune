@@ -6,10 +6,9 @@ Live at: [https://orbitune.pkk.in.eu.org](https://orbitune.pkk.in.eu.org)
 
 ## Screenshots
 
-![Orbitune Desktop](./images/desktop.avif)
-
 <p align="center">
-  <img src="./images/mobile.avif" alt="Orbitune Mobile" width="320" />
+    <img src="./images/desktop.avif" alt="Desktop" width="720" />
+    <img src="./images/mobile.avif" alt="Mobile" width="320" />
 </p>
 
 ## Features
