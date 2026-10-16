@@ -7,8 +7,8 @@ Live at: [https://orbitune.pkk.in.eu.org](https://orbitune.pkk.in.eu.org)
 ## Screenshots
 
 <p align="center">
-    <img src="./images/desktop.avif" alt="Desktop" width="720" />
-    <img src="./images/mobile.avif" alt="Mobile" width="320" />
+    <img src="./images/desktop.avif" alt="Desktop" />
+    <img src="./images/mobile.avif" alt="Mobile" />
 </p>
 
 ## Features
