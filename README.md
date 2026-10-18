@@ -12,11 +12,11 @@ Live at: [https://orbitune.pkk.in.eu.org](https://orbitune.pkk.in.eu.org)
 
 ## Features
 
-- 🎵 **Music Streaming**: Search and stream high-quality songs, albums, artists, and playlists.
-- 💾 **Dual Download Modes**: In-app offline caching (IndexedDB) and direct file downloads.
-- ❤️ **Liked Songs & Playlists**: Save favorite tracks and organize custom playlists.
-- 🎨 **Nice UI**: Responsive dark theme with player controls and animated visual touches.
-- ⚡ **PWA supported**: Installable with offline support.
+- **Music Streaming**: Search and stream high-quality songs, albums, artists, and playlists.
+- **Dual Download Modes**: In-app offline caching (IndexedDB) and direct file downloads.
+- **Liked Songs & Playlists**: Save favorite tracks and organize custom playlists.
+- **Nice UI**: Responsive dark theme with player controls and animated visual touches.
+- **PWA supported**: Installable with offline support.
 
 ## Getting Started
 
